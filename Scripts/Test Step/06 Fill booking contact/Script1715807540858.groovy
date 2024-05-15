@@ -17,15 +17,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Car Rental Tab/buttonSearch'))
+WebUI.waitForElementPresent(findTestObject('Booking Contact/inputCPFullName'), 0)
 
-WebUI.waitForElementPresent(findTestObject('Search Result/buttonTopResultContinue'), 0)
+WebUI.setText(findTestObject('Booking Contact/inputCPFullName'), 'Full Name Automation')
 
-WebUI.click(findTestObject('Search Result/buttonTopResultContinue'))
+WebUI.setText(findTestObject('Booking Contact/inputCPPhone'), '8123456789')
 
-WebUI.delay(1)
+WebUI.setText(findTestObject('Booking Contact/inputCPEmail'), 'email@gmail.com')
 
-WebUI.waitForElementPresent(findTestObject('Search Result/buttonTopResultProvider'), 2)
+WebUI.scrollToElement(findTestObject('Booking Contact/dropdownDriverTitle'), 0)
 
-WebUI.click(findTestObject('Search Result/buttonTopResultProvider'))
+WebUI.acceptAlert()
+
+WebUI.selectOptionByValue(findTestObject('Booking Contact/dropdownDriverTitle'), 'MR', false)
+
+WebUI.setText(findTestObject('Booking Contact/inputDriverFullName'), 'Full Name Automation')
+
+WebUI.setText(findTestObject('Booking Contact/inputDriverPhone'), '8123456789')
+
+WebUI.click(findTestObject('Booking Contact/buttonContinue'))
 

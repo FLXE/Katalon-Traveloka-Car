@@ -17,15 +17,3 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Car Rental Tab/buttonSearch'))
-
-WebUI.waitForElementPresent(findTestObject('Search Result/buttonTopResultContinue'), 0)
-
-WebUI.click(findTestObject('Search Result/buttonTopResultContinue'))
-
-WebUI.delay(1)
-
-WebUI.waitForElementPresent(findTestObject('Search Result/buttonTopResultProvider'), 2)
-
-WebUI.click(findTestObject('Search Result/buttonTopResultProvider'))
-

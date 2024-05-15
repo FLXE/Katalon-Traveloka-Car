@@ -17,15 +17,25 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Car Rental Tab/buttonSearch'))
+WebUI.waitForElementPresent(findTestObject('Booking Review/buttonRequirement'), 0)
 
-WebUI.waitForElementPresent(findTestObject('Search Result/buttonTopResultContinue'), 0)
+WebUI.click(findTestObject('Booking Review/buttonRequirement'))
 
-WebUI.click(findTestObject('Search Result/buttonTopResultContinue'))
+WebUI.waitForElementPresent(findTestObject('Booking Review/checkboxCheckAll'), 0)
 
-WebUI.delay(1)
+WebUI.click(findTestObject('Booking Review/checkboxCheckAll'))
 
-WebUI.waitForElementPresent(findTestObject('Search Result/buttonTopResultProvider'), 2)
+WebUI.scrollToElement(findTestObject('Booking Review/buttonSaveRequirement'), 0)
 
-WebUI.click(findTestObject('Search Result/buttonTopResultProvider'))
+WebUI.click(findTestObject('Booking Review/buttonSaveRequirement'))
+
+WebUI.scrollToElement(findTestObject('Booking Review/buttonContinueP'), 0)
+
+WebUI.click(findTestObject('Booking Review/buttonContinueP'))
+
+WebUI.waitForElementVisible(findTestObject('Booking Review/buttonConfirmContinue'), 0)
+
+WebUI.click(findTestObject('Booking Review/buttonConfirmContinue'))
+
+WebUI.delay(2)
 
