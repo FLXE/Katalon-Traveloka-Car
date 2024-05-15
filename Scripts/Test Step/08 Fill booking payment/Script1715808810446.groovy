@@ -17,3 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.waitForElementPresent(findTestObject('Booking Payment/buttonBCAvirtual'), 0)
+
+WebUI.click(findTestObject('Booking Payment/buttonBCAvirtual'))
+
+WebUI.scrollToElement(findTestObject('Booking Payment/buttonConfirmPayment'), 0)
+
+WebUI.click(findTestObject('Booking Payment/buttonConfirmPayment'))
+
+WebUI.delay(5)
+

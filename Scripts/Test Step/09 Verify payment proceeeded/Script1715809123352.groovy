@@ -17,21 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.waitForElementPresent(findTestObject('Booking Contact/inputCPFullName'), 0)
+WebUI.waitForElementPresent(findTestObject('Booking Payment/textPleaseTransfer'), 0)
 
-WebUI.setText(findTestObject('Booking Contact/inputCPFullName'), 'Full Name Automation')
-
-WebUI.setText(findTestObject('Booking Contact/inputCPPhone'), '8123456789')
-
-WebUI.setText(findTestObject('Booking Contact/inputCPEmail'), 'email@gmail.com')
-
-WebUI.scrollToElement(findTestObject('Booking Contact/dropdownDriverTitle'), 0)
-
-WebUI.selectOptionByValue(findTestObject('Booking Contact/dropdownDriverTitle'), 'MR', false)
-
-WebUI.setText(findTestObject('Booking Contact/inputDriverFullName'), 'Full Name Automation')
-
-WebUI.setText(findTestObject('Booking Contact/inputDriverPhone'), '8123456789')
-
-WebUI.click(findTestObject('Booking Contact/buttonContinue'))
+WebUI.waitForElementVisible(findTestObject('Booking Payment/textPleaseTransfer'), 0)
 

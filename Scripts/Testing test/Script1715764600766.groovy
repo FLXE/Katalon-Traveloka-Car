@@ -27,3 +27,11 @@ WebUI.callTestCase(findTestCase('Test Step/04 Select car and provider from searc
 
 WebUI.callTestCase(findTestCase('Test Step/05 Fill pickup dropoff detail'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.callTestCase(findTestCase('Test Step/06 Fill booking contact'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Test Step/07 Fill booking review'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Test Step/08 Fill booking payment'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Test Step/09 Verify payment proceeeded'), [:], FailureHandling.STOP_ON_FAILURE)
+

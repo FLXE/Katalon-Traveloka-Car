@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>buttonRequirement</name>
+   <name>textPleaseTransfer</name>
    <tag></tag>
-   <elementGuidId>13065860-052e-4c46-ae7b-08ee3e6e27bb</elementGuidId>
+   <elementGuidId>3c0af5c3-c30b-4d5b-b4fd-b8406872c594</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@class='css-1dbjc4n r-13awgt0 r-18u37iz']</value>
+         <value>//h1[.='Please Transfer to']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
