@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Rental Suite" time="102.546" tests="9" failures="0" errors="0">
+   <testsuite name="Rental Suite" tests="9" failures="0" errors="0" time="102.546" skipped="0" timestamp="2024-05-16 05:19:54" hostname="wisam - DESKTOP-SE258RV" id="Test Suites/Car Rental/Rental Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\wisam\\git\\Katalon-Traveloka-Car\\Reports\\20240516_051948\\Car Rental\\Rental Suite\\20240516_051948"/>
+         <property name="logFiles" value="C:\\Users\\wisam\\git\\Katalon-Traveloka-Car\\Reports\\20240516_051948\\Car Rental\\Rental Suite\\20240516_051948\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="wisam - DESKTOP-SE258RV"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="browser" value="Edge Chromium 124"/>
+         <property name="hostAddress" value="192.168.1.3"/>
+         <property name="sessionId" value="0508172b2537da2d1dda23f50a9a7640"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Test Step/01 Navigate to URL" time="7.107" classname="Test Cases/Test Step/01 Navigate to URL" status="PASSED">
+         <system-out><![CDATA[2024-05-16 05:19:55 - [TEST_CASE][PASSED] - Test Cases/Test Step/01 Navigate to URL: Test Cases/Test Step/01 Navigate to URL
+
+2024-05-16 05:19:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-05-16 05:19:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-05-16 05:19:58 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-05-16 05:19:58 - [MESSAGE][PASSED] - Current window maximized
+
+2024-05-16 05:19:58 - [TEST_STEP][PASSED] - navigateToUrl("https://www.traveloka.com/en-id"): Navigate to 'https://www.traveloka.com/en-id' successfully
+
+2024-05-16 05:20:02 - [MESSAGE][PASSED] - Navigate to 'https://www.traveloka.com/en-id' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test Step/02 Select car product" time="4.123" classname="Test Cases/Test Step/02 Select car product" status="PASSED">
+         <system-out><![CDATA[2024-05-16 05:20:02 - [TEST_CASE][PASSED] - Test Cases/Test Step/02 Select car product: Test Cases/Test Step/02 Select car product
+
+2024-05-16 05:20:04 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Homepage/navbarCar"), 2): Object 'Object Repository/Homepage/navbarCar' is present
+
+2024-05-16 05:20:05 - [MESSAGE][PASSED] - Object 'Object Repository/Homepage/navbarCar' is present
+
+2024-05-16 05:20:05 - [TEST_STEP][PASSED] - click(findTestObject("Homepage/navbarCar")): Object: 'Object Repository/Homepage/navbarCar' is clicked on
+
+2024-05-16 05:20:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Homepage/navbarCar' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test Step/03 Fill search keyword" time="14.342" classname="Test Cases/Test Step/03 Fill search keyword" status="PASSED">
+         <system-out><![CDATA[2024-05-16 05:20:06 - [TEST_CASE][PASSED] - Test Cases/Test Step/03 Fill search keyword: Test Cases/Test Step/03 Fill search keyword
+
+2024-05-16 05:20:07 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Car Rental Tab/inputLocation"), 2): Object 'Object Repository/Car Rental Tab/inputLocation' is present
+
+2024-05-16 05:20:08 - [MESSAGE][PASSED] - Object 'Object Repository/Car Rental Tab/inputLocation' is present
+
+2024-05-16 05:20:08 - [TEST_STEP][PASSED] - click(findTestObject("Car Rental Tab/inputLocation")): Object: 'Object Repository/Car Rental Tab/inputLocation' is clicked on
+
+2024-05-16 05:20:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Car Rental Tab/inputLocation' is clicked on
+
+2024-05-16 05:20:09 - [TEST_STEP][PASSED] - setText(findTestObject("Car Rental Tab/inputLocation"), "Jakarta"): Text 'Jakarta' is set on object 'Object Repository/Car Rental Tab/inputLocation'
+
+2024-05-16 05:20:10 - [MESSAGE][PASSED] - Text 'Jakarta' is set on object 'Object Repository/Car Rental Tab/inputLocation'
+
+2024-05-16 05:20:10 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2024-05-16 05:20:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2024-05-16 05:20:11 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(TAB, ENTER)): Keys 'TAB + ENTER + ' sent to object: 'tempBody'
+
+2024-05-16 05:20:11 - [MESSAGE][WARNING] - Test object id is null
+
+2024-05-16 05:20:11 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2024-05-16 05:20:12 - [MESSAGE][PASSED] - Keys 'TAB + ENTER + ' sent to object: 'tempBody'
+
+2024-05-16 05:20:12 - [TEST_STEP][PASSED] - click(findTestObject("Car Rental Tab/inputDateStart")): Object: 'Object Repository/Car Rental Tab/inputDateStart' is clicked on
+
+2024-05-16 05:20:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Car Rental Tab/inputDateStart' is clicked on
+
+2024-05-16 05:20:12 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(TAB, TAB, TAB, ENTER)): Keys 'TAB + TAB + TAB + ENTER + ' sent to object: 'tempBody'
+
+2024-05-16 05:20:12 - [MESSAGE][WARNING] - Test object id is null
+
+2024-05-16 05:20:12 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2024-05-16 05:20:13 - [MESSAGE][PASSED] - Keys 'TAB + TAB + TAB + ENTER + ' sent to object: 'tempBody'
+
+2024-05-16 05:20:13 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(PAGE_UP)): Keys 'PAGE_UP + ' sent to object: 'tempBody'
+
+2024-05-16 05:20:13 - [MESSAGE][WARNING] - Test object id is null
+
+2024-05-16 05:20:13 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2024-05-16 05:20:13 - [MESSAGE][PASSED] - Keys 'PAGE_UP + ' sent to object: 'tempBody'
+
+2024-05-16 05:20:13 - [TEST_STEP][PASSED] - click(findTestObject("Car Rental Tab/inputTimeStart")): Object: 'Object Repository/Car Rental Tab/inputTimeStart' is clicked on
+
+2024-05-16 05:20:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Car Rental Tab/inputTimeStart' is clicked on
+
+2024-05-16 05:20:15 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(TAB, TAB, TAB, TAB, TAB, TAB, TAB, TAB, TAB, TAB, ENTER, TAB, TAB, TAB, TAB, TAB, TAB, TAB, TAB, TAB, TAB, TAB, TAB, TAB, TAB, TAB, ENTER, TAB, TAB, ENTER)): Keys 'TAB + TAB + TAB + TAB + TAB + TAB + TAB + TAB + TAB + TAB + ENTER + TAB + TAB + TAB + TAB + TAB + TAB + TAB + TAB + TAB + TAB + TAB + TAB + TAB + TAB + TAB + ENTER + TAB + TAB + ENTER + ' sent to object: 'tempBody'
+
+2024-05-16 05:20:15 - [MESSAGE][WARNING] - Test object id is null
+
+2024-05-16 05:20:15 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2024-05-16 05:20:15 - [MESSAGE][PASSED] - Keys 'TAB + TAB + TAB + TAB + TAB + TAB + TAB + TAB + TAB + TAB + ENTER + TAB + TAB + TAB + TAB + TAB + TAB + TAB + TAB + TAB + TAB + TAB + TAB + TAB + TAB + TAB + ENTER + TAB + TAB + ENTER + ' sent to object: 'tempBody'
+
+2024-05-16 05:20:15 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(PAGE_UP)): Keys 'PAGE_UP + ' sent to object: 'tempBody'
+
+2024-05-16 05:20:15 - [MESSAGE][WARNING] - Test object id is null
+
+2024-05-16 05:20:15 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2024-05-16 05:20:16 - [MESSAGE][PASSED] - Keys 'PAGE_UP + ' sent to object: 'tempBody'
+
+2024-05-16 05:20:16 - [TEST_STEP][PASSED] - click(findTestObject("Car Rental Tab/inputDateEnd")): Object: 'Object Repository/Car Rental Tab/inputDateEnd' is clicked on
+
+2024-05-16 05:20:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Car Rental Tab/inputDateEnd' is clicked on
+
+2024-05-16 05:20:17 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(TAB, TAB, TAB, TAB, TAB, TAB, ENTER)): Keys 'TAB + TAB + TAB + TAB + TAB + TAB + ENTER + ' sent to object: 'tempBody'
+
+2024-05-16 05:20:17 - [MESSAGE][WARNING] - Test object id is null
+
+2024-05-16 05:20:17 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2024-05-16 05:20:18 - [MESSAGE][PASSED] - Keys 'TAB + TAB + TAB + TAB + TAB + TAB + ENTER + ' sent to object: 'tempBody'
+
+2024-05-16 05:20:18 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(PAGE_UP)): Keys 'PAGE_UP + ' sent to object: 'tempBody'
+
+2024-05-16 05:20:18 - [MESSAGE][WARNING] - Test object id is null
+
+2024-05-16 05:20:18 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2024-05-16 05:20:18 - [MESSAGE][PASSED] - Keys 'PAGE_UP + ' sent to object: 'tempBody'
+
+2024-05-16 05:20:18 - [TEST_STEP][PASSED] - click(findTestObject("Car Rental Tab/inputTimeEnd")): Object: 'Object Repository/Car Rental Tab/inputTimeEnd' is clicked on
+
+2024-05-16 05:20:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Car Rental Tab/inputTimeEnd' is clicked on
+
+2024-05-16 05:20:19 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(TAB, TAB, TAB, TAB, TAB, TAB, TAB, TAB, TAB, TAB, TAB, TAB, ENTER, TAB, TAB, TAB, TAB, TAB, TAB, TAB, TAB, TAB, TAB, TAB, TAB, TAB, ENTER, TAB, TAB, ENTER)): Keys 'TAB + TAB + TAB + TAB + TAB + TAB + TAB + TAB + TAB + TAB + TAB + TAB + ENTER + TAB + TAB + TAB + TAB + TAB + TAB + TAB + TAB + TAB + TAB + TAB + TAB + TAB + ENTER + TAB + TAB + ENTER + ' sent to object: 'tempBody'
+
+2024-05-16 05:20:19 - [MESSAGE][WARNING] - Test object id is null
+
+2024-05-16 05:20:19 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2024-05-16 05:20:20 - [MESSAGE][PASSED] - Keys 'TAB + TAB + TAB + TAB + TAB + TAB + TAB + TAB + TAB + TAB + TAB + TAB + ENTER + TAB + TAB + TAB + TAB + TAB + TAB + TAB + TAB + TAB + TAB + TAB + TAB + TAB + ENTER + TAB + TAB + ENTER + ' sent to object: 'tempBody'
+
+2024-05-16 05:20:20 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(PAGE_UP)): Keys 'PAGE_UP + ' sent to object: 'tempBody'
+
+2024-05-16 05:20:20 - [MESSAGE][WARNING] - Test object id is null
+
+2024-05-16 05:20:20 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2024-05-16 05:20:20 - [MESSAGE][PASSED] - Keys 'PAGE_UP + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test Step/04 Select car and provider from search result" time="18.567" classname="Test Cases/Test Step/04 Select car and provider from search result" status="PASSED">
+         <system-out><![CDATA[2024-05-16 05:20:20 - [TEST_CASE][PASSED] - Test Cases/Test Step/04 Select car and provider from search result: Test Cases/Test Step/04 Select car and provider from search result
+
+2024-05-16 05:20:21 - [TEST_STEP][PASSED] - click(findTestObject("Car Rental Tab/buttonSearch")): Object: 'Object Repository/Car Rental Tab/buttonSearch' is clicked on
+
+2024-05-16 05:20:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Car Rental Tab/buttonSearch' is clicked on
+
+2024-05-16 05:20:25 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Search Result/buttonTopResultContinue"), 0): Object 'Object Repository/Search Result/buttonTopResultContinue' is present
+
+2024-05-16 05:20:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-05-16 05:20:29 - [MESSAGE][PASSED] - Object 'Object Repository/Search Result/buttonTopResultContinue' is present
+
+2024-05-16 05:20:29 - [TEST_STEP][PASSED] - click(findTestObject("Search Result/buttonTopResultContinue")): Object: 'Object Repository/Search Result/buttonTopResultContinue' is clicked on
+
+2024-05-16 05:20:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Result/buttonTopResultContinue' is clicked on
+
+2024-05-16 05:20:30 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2024-05-16 05:20:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2024-05-16 05:20:31 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Search Result/buttonTopResultProvider"), 2): Object 'Object Repository/Search Result/buttonTopResultProvider' is present
+
+2024-05-16 05:20:32 - [MESSAGE][PASSED] - Object 'Object Repository/Search Result/buttonTopResultProvider' is present
+
+2024-05-16 05:20:32 - [TEST_STEP][PASSED] - click(findTestObject("Search Result/buttonTopResultProvider")): Object: 'Object Repository/Search Result/buttonTopResultProvider' is clicked on
+
+2024-05-16 05:20:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Result/buttonTopResultProvider' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test Step/05 Fill pickup dropoff detail" time="11.194" classname="Test Cases/Test Step/05 Fill pickup dropoff detail" status="PASSED">
+         <system-out><![CDATA[2024-05-16 05:20:39 - [TEST_CASE][PASSED] - Test Cases/Test Step/05 Fill pickup dropoff detail: Test Cases/Test Step/05 Fill pickup dropoff detail
+
+2024-05-16 05:20:40 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Product Detail/radioPickupOffice"), 0): Object 'Object Repository/Product Detail/radioPickupOffice' is present
+
+2024-05-16 05:20:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-05-16 05:20:41 - [MESSAGE][PASSED] - Object 'Object Repository/Product Detail/radioPickupOffice' is present
+
+2024-05-16 05:20:41 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Product Detail/radioPickupOffice"), 0): Scroll to object 'Object Repository/Product Detail/radioPickupOffice' successfully
+
+2024-05-16 05:20:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-05-16 05:20:41 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Product Detail/radioPickupOffice' successfully
+
+2024-05-16 05:20:41 - [TEST_STEP][PASSED] - click(findTestObject("Product Detail/radioPickupOffice")): Object: 'Object Repository/Product Detail/radioPickupOffice' is clicked on
+
+2024-05-16 05:20:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Product Detail/radioPickupOffice' is clicked on
+
+2024-05-16 05:20:42 - [TEST_STEP][PASSED] - click(findTestObject("Product Detail/dropdownPickupOffice")): Object: 'Object Repository/Product Detail/dropdownPickupOffice' is clicked on
+
+2024-05-16 05:20:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Product Detail/dropdownPickupOffice' is clicked on
+
+2024-05-16 05:20:42 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(TAB, ENTER)): Keys 'TAB + ENTER + ' sent to object: 'tempBody'
+
+2024-05-16 05:20:42 - [MESSAGE][WARNING] - Test object id is null
+
+2024-05-16 05:20:42 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2024-05-16 05:20:43 - [MESSAGE][PASSED] - Keys 'TAB + ENTER + ' sent to object: 'tempBody'
+
+2024-05-16 05:20:43 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2024-05-16 05:20:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2024-05-16 05:20:45 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Product Detail/radioDropoffOther"), 0): Scroll to object 'Object Repository/Product Detail/radioDropoffOther' successfully
+
+2024-05-16 05:20:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-05-16 05:20:46 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Product Detail/radioDropoffOther' successfully
+
+2024-05-16 05:20:46 - [TEST_STEP][PASSED] - click(findTestObject("Product Detail/radioDropoffOther")): Object: 'Object Repository/Product Detail/radioDropoffOther' is clicked on
+
+2024-05-16 05:20:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Product Detail/radioDropoffOther' is clicked on
+
+2024-05-16 05:20:46 - [TEST_STEP][PASSED] - click(findTestObject("Product Detail/inputSearchLocation")): Object: 'Object Repository/Product Detail/inputSearchLocation' is clicked on
+
+2024-05-16 05:20:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Product Detail/inputSearchLocation' is clicked on
+
+2024-05-16 05:20:47 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(TAB, ENTER)): Keys 'TAB + ENTER + ' sent to object: 'tempBody'
+
+2024-05-16 05:20:47 - [MESSAGE][WARNING] - Test object id is null
+
+2024-05-16 05:20:47 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2024-05-16 05:20:48 - [MESSAGE][PASSED] - Keys 'TAB + ENTER + ' sent to object: 'tempBody'
+
+2024-05-16 05:20:48 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Product Detail/buttonContinue"), 0): Scroll to object 'Object Repository/Product Detail/buttonContinue' successfully
+
+2024-05-16 05:20:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-05-16 05:20:49 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Product Detail/buttonContinue' successfully
+
+2024-05-16 05:20:49 - [TEST_STEP][PASSED] - click(findTestObject("Product Detail/buttonContinue")): Object: 'Object Repository/Product Detail/buttonContinue' is clicked on
+
+2024-05-16 05:20:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Product Detail/buttonContinue' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test Step/06 Fill booking contact" time="11.554" classname="Test Cases/Test Step/06 Fill booking contact" status="PASSED">
+         <system-out><![CDATA[2024-05-16 05:20:50 - [TEST_CASE][PASSED] - Test Cases/Test Step/06 Fill booking contact: Test Cases/Test Step/06 Fill booking contact
+
+2024-05-16 05:20:52 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Booking Contact/inputCPFullName"), 0): Object 'Object Repository/Booking Contact/inputCPFullName' is present
+
+2024-05-16 05:20:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-05-16 05:20:54 - [MESSAGE][PASSED] - Object 'Object Repository/Booking Contact/inputCPFullName' is present
+
+2024-05-16 05:20:54 - [TEST_STEP][PASSED] - setText(findTestObject("Booking Contact/inputCPFullName"), "Full Name Automation"): Text 'Full Name Automation' is set on object 'Object Repository/Booking Contact/inputCPFullName'
+
+2024-05-16 05:20:55 - [MESSAGE][PASSED] - Text 'Full Name Automation' is set on object 'Object Repository/Booking Contact/inputCPFullName'
+
+2024-05-16 05:20:55 - [TEST_STEP][PASSED] - setText(findTestObject("Booking Contact/inputCPPhone"), "8123456789"): Text '8123456789' is set on object 'Object Repository/Booking Contact/inputCPPhone'
+
+2024-05-16 05:20:56 - [MESSAGE][PASSED] - Text '8123456789' is set on object 'Object Repository/Booking Contact/inputCPPhone'
+
+2024-05-16 05:20:56 - [TEST_STEP][PASSED] - setText(findTestObject("Booking Contact/inputCPEmail"), "email@gmail.com"): Text 'email@gmail.com' is set on object 'Object Repository/Booking Contact/inputCPEmail'
+
+2024-05-16 05:20:57 - [MESSAGE][PASSED] - Text 'email@gmail.com' is set on object 'Object Repository/Booking Contact/inputCPEmail'
+
+2024-05-16 05:20:57 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Booking Contact/dropdownDriverTitle"), 0): Scroll to object 'Object Repository/Booking Contact/dropdownDriverTitle' successfully
+
+2024-05-16 05:20:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-05-16 05:20:58 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Booking Contact/dropdownDriverTitle' successfully
+
+2024-05-16 05:20:58 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Booking Contact/dropdownDriverTitle"), "MR", false): All options with value 'MR' are selected in object 'Object Repository/Booking Contact/dropdownDriverTitle' 
+
+2024-05-16 05:20:59 - [MESSAGE][PASSED] - All options with value 'MR' are selected in object 'Object Repository/Booking Contact/dropdownDriverTitle' 
+
+2024-05-16 05:20:59 - [TEST_STEP][PASSED] - setText(findTestObject("Booking Contact/inputDriverFullName"), "Full Name Automation"): Text 'Full Name Automation' is set on object 'Object Repository/Booking Contact/inputDriverFullName'
+
+2024-05-16 05:21:00 - [MESSAGE][PASSED] - Text 'Full Name Automation' is set on object 'Object Repository/Booking Contact/inputDriverFullName'
+
+2024-05-16 05:21:00 - [TEST_STEP][PASSED] - setText(findTestObject("Booking Contact/inputDriverPhone"), "8123456789"): Text '8123456789' is set on object 'Object Repository/Booking Contact/inputDriverPhone'
+
+2024-05-16 05:21:01 - [MESSAGE][PASSED] - Text '8123456789' is set on object 'Object Repository/Booking Contact/inputDriverPhone'
+
+2024-05-16 05:21:01 - [TEST_STEP][PASSED] - click(findTestObject("Booking Contact/buttonContinue")): Object: 'Object Repository/Booking Contact/buttonContinue' is clicked on
+
+2024-05-16 05:21:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Booking Contact/buttonContinue' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test Step/07 Fill booking review" time="9.058" classname="Test Cases/Test Step/07 Fill booking review" status="PASSED">
+         <system-out><![CDATA[2024-05-16 05:21:02 - [TEST_CASE][PASSED] - Test Cases/Test Step/07 Fill booking review: Test Cases/Test Step/07 Fill booking review
+
+2024-05-16 05:21:03 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Booking Review/buttonRequirement"), 0): Object 'Object Repository/Booking Review/buttonRequirement' is present
+
+2024-05-16 05:21:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-05-16 05:21:03 - [MESSAGE][PASSED] - Object 'Object Repository/Booking Review/buttonRequirement' is present
+
+2024-05-16 05:21:03 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Booking Review/buttonRequirement"), 0): Scroll to object 'Object Repository/Booking Review/buttonRequirement' successfully
+
+2024-05-16 05:21:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-05-16 05:21:04 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Booking Review/buttonRequirement' successfully
+
+2024-05-16 05:21:04 - [TEST_STEP][PASSED] - click(findTestObject("Booking Review/buttonRequirement")): Object: 'Object Repository/Booking Review/buttonRequirement' is clicked on
+
+2024-05-16 05:21:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Booking Review/buttonRequirement' is clicked on
+
+2024-05-16 05:21:04 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Booking Review/checkboxCheckAll"), 0): Object 'Object Repository/Booking Review/checkboxCheckAll' is present
+
+2024-05-16 05:21:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-05-16 05:21:05 - [MESSAGE][PASSED] - Object 'Object Repository/Booking Review/checkboxCheckAll' is present
+
+2024-05-16 05:21:05 - [TEST_STEP][PASSED] - click(findTestObject("Booking Review/checkboxCheckAll")): Object: 'Object Repository/Booking Review/checkboxCheckAll' is clicked on
+
+2024-05-16 05:21:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Booking Review/checkboxCheckAll' is clicked on
+
+2024-05-16 05:21:05 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Booking Review/buttonSaveRequirement"), 0): Scroll to object 'Object Repository/Booking Review/buttonSaveRequirement' successfully
+
+2024-05-16 05:21:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-05-16 05:21:06 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Booking Review/buttonSaveRequirement' successfully
+
+2024-05-16 05:21:06 - [TEST_STEP][PASSED] - click(findTestObject("Booking Review/buttonSaveRequirement")): Object: 'Object Repository/Booking Review/buttonSaveRequirement' is clicked on
+
+2024-05-16 05:21:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Booking Review/buttonSaveRequirement' is clicked on
+
+2024-05-16 05:21:06 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Booking Review/buttonContinueP"), 0): Scroll to object 'Object Repository/Booking Review/buttonContinueP' successfully
+
+2024-05-16 05:21:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-05-16 05:21:07 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Booking Review/buttonContinueP' successfully
+
+2024-05-16 05:21:07 - [TEST_STEP][PASSED] - click(findTestObject("Booking Review/buttonContinueP")): Object: 'Object Repository/Booking Review/buttonContinueP' is clicked on
+
+2024-05-16 05:21:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Booking Review/buttonContinueP' is clicked on
+
+2024-05-16 05:21:07 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Booking Review/buttonConfirmContinue"), 0): Object 'Object Repository/Booking Review/buttonConfirmContinue' is visible
+
+2024-05-16 05:21:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-05-16 05:21:08 - [MESSAGE][PASSED] - Object 'Object Repository/Booking Review/buttonConfirmContinue' is visible
+
+2024-05-16 05:21:08 - [TEST_STEP][PASSED] - click(findTestObject("Booking Review/buttonConfirmContinue")): Object: 'Object Repository/Booking Review/buttonConfirmContinue' is clicked on
+
+2024-05-16 05:21:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Booking Review/buttonConfirmContinue' is clicked on
+
+2024-05-16 05:21:09 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2024-05-16 05:21:11 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test Step/08 Fill booking payment" time="19.485" classname="Test Cases/Test Step/08 Fill booking payment" status="PASSED">
+         <system-out><![CDATA[2024-05-16 05:21:11 - [TEST_CASE][PASSED] - Test Cases/Test Step/08 Fill booking payment: Test Cases/Test Step/08 Fill booking payment
+
+2024-05-16 05:21:12 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Booking Payment/buttonBCAvirtual"), 0): Object 'Object Repository/Booking Payment/buttonBCAvirtual' is present
+
+2024-05-16 05:21:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-05-16 05:21:23 - [MESSAGE][PASSED] - Object 'Object Repository/Booking Payment/buttonBCAvirtual' is present
+
+2024-05-16 05:21:23 - [TEST_STEP][PASSED] - click(findTestObject("Booking Payment/buttonBCAvirtual")): Object: 'Object Repository/Booking Payment/buttonBCAvirtual' is clicked on
+
+2024-05-16 05:21:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Booking Payment/buttonBCAvirtual' is clicked on
+
+2024-05-16 05:21:24 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Booking Payment/buttonConfirmPayment"), 0): Scroll to object 'Object Repository/Booking Payment/buttonConfirmPayment' successfully
+
+2024-05-16 05:21:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-05-16 05:21:25 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Booking Payment/buttonConfirmPayment' successfully
+
+2024-05-16 05:21:25 - [TEST_STEP][PASSED] - click(findTestObject("Booking Payment/buttonConfirmPayment")): Object: 'Object Repository/Booking Payment/buttonConfirmPayment' is clicked on
+
+2024-05-16 05:21:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Booking Payment/buttonConfirmPayment' is clicked on
+
+2024-05-16 05:21:25 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2024-05-16 05:21:30 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test Step/09 Verify payment proceeeded" time="6.41" classname="Test Cases/Test Step/09 Verify payment proceeeded" status="PASSED">
+         <system-out><![CDATA[2024-05-16 05:21:30 - [TEST_CASE][PASSED] - Test Cases/Test Step/09 Verify payment proceeeded: Test Cases/Test Step/09 Verify payment proceeeded
+
+2024-05-16 05:21:31 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Booking Payment/textPleaseTransfer"), 0): Object 'Object Repository/Booking Payment/textPleaseTransfer' is present
+
+2024-05-16 05:21:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-05-16 05:21:36 - [MESSAGE][PASSED] - Object 'Object Repository/Booking Payment/textPleaseTransfer' is present
+
+2024-05-16 05:21:36 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Booking Payment/textPleaseTransfer"), 0): Object 'Object Repository/Booking Payment/textPleaseTransfer' is visible
+
+2024-05-16 05:21:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-05-16 05:21:37 - [MESSAGE][PASSED] - Object 'Object Repository/Booking Payment/textPleaseTransfer' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2024-05-16 05:19:54 - [TEST_SUITE][INCOMPLETE] - Rental Suite: null]]></system-out>
+      <system-err><![CDATA[2024-05-16 05:19:54 - [TEST_SUITE][INCOMPLETE] - Rental Suite: null]]></system-err>
+   </testsuite>
+</testsuites>

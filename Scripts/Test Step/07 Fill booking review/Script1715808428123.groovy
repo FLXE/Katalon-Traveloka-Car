@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.waitForElementPresent(findTestObject('Booking Review/buttonRequirement'), 0)
 
+WebUI.scrollToElement(findTestObject('Booking Review/buttonRequirement'), 0)
+
 WebUI.click(findTestObject('Booking Review/buttonRequirement'))
 
 WebUI.waitForElementPresent(findTestObject('Booking Review/checkboxCheckAll'), 0)

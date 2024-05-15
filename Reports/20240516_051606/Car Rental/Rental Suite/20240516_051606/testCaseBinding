@@ -1,0 +1,9 @@
+{"testCaseName":"Test Cases/Test Step/01 Navigate to URL","testCaseId":"Test Cases/Test Step/01 Navigate to URL","iterationVariableName":""}
+{"testCaseName":"Test Cases/Test Step/02 Select car product","testCaseId":"Test Cases/Test Step/02 Select car product","iterationVariableName":""}
+{"testCaseName":"Test Cases/Test Step/03 Fill search keyword","testCaseId":"Test Cases/Test Step/03 Fill search keyword","iterationVariableName":""}
+{"testCaseName":"Test Cases/Test Step/04 Select car and provider from search result","testCaseId":"Test Cases/Test Step/04 Select car and provider from search result","iterationVariableName":""}
+{"testCaseName":"Test Cases/Test Step/05 Fill pickup dropoff detail","testCaseId":"Test Cases/Test Step/05 Fill pickup dropoff detail","iterationVariableName":""}
+{"testCaseName":"Test Cases/Test Step/06 Fill booking contact","testCaseId":"Test Cases/Test Step/06 Fill booking contact","iterationVariableName":""}
+{"testCaseName":"Test Cases/Test Step/07 Fill booking review","testCaseId":"Test Cases/Test Step/07 Fill booking review","iterationVariableName":""}
+{"testCaseName":"Test Cases/Test Step/08 Fill booking payment","testCaseId":"Test Cases/Test Step/08 Fill booking payment","iterationVariableName":""}
+{"testCaseName":"Test Cases/Test Step/09 Verify payment proceeeded","testCaseId":"Test Cases/Test Step/09 Verify payment proceeeded","iterationVariableName":""}

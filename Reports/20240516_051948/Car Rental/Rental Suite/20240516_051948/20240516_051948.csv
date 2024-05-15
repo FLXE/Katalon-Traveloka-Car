@@ -1,0 +1,88 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Rental Suite,Edge Chromium 124,,,2024-05-16 05:19:54,2024-05-16 05:21:37,1m - 42.546s,PASSED
+,,,,,,,
+Test Cases/Test Step/01 Navigate to URL,Edge Chromium 124,,,2024-05-16 05:19:55,2024-05-16 05:20:02,7.107s,PASSED
+"openBrowser("""")",Edge Chromium 124,,,2024-05-16 05:19:56,2024-05-16 05:19:58,2.523s,PASSED
+maximizeWindow(),Edge Chromium 124,,,2024-05-16 05:19:58,2024-05-16 05:19:58,0.094s,PASSED
+"navigateToUrl(""https://www.traveloka.com/en-id"")",Edge Chromium 124,,,2024-05-16 05:19:58,2024-05-16 05:20:02,3.616s,PASSED
+,,,,,,,
+Test Cases/Test Step/02 Select car product,Edge Chromium 124,,,2024-05-16 05:20:02,2024-05-16 05:20:06,4.123s,PASSED
+"verifyElementPresent(findTestObject(""Homepage/navbarCar""), 2)",Edge Chromium 124,,,2024-05-16 05:20:04,2024-05-16 05:20:05,0.876s,PASSED
+"click(findTestObject(""Homepage/navbarCar""))",Edge Chromium 124,,,2024-05-16 05:20:05,2024-05-16 05:20:06,0.728s,PASSED
+,,,,,,,
+Test Cases/Test Step/03 Fill search keyword,Edge Chromium 124,,,2024-05-16 05:20:06,2024-05-16 05:20:20,14.342s,PASSED
+"verifyElementPresent(findTestObject(""Car Rental Tab/inputLocation""), 2)",Edge Chromium 124,,,2024-05-16 05:20:07,2024-05-16 05:20:08,0.431s,PASSED
+"click(findTestObject(""Car Rental Tab/inputLocation""))",Edge Chromium 124,,,2024-05-16 05:20:08,2024-05-16 05:20:09,0.702s,PASSED
+"setText(findTestObject(""Car Rental Tab/inputLocation""), ""Jakarta"")",Edge Chromium 124,,,2024-05-16 05:20:09,2024-05-16 05:20:10,1.404s,PASSED
+delay(1),Edge Chromium 124,,,2024-05-16 05:20:10,2024-05-16 05:20:11,1.068s,PASSED
+"sendKeys(findTestObject(null), Keys.chord(TAB, ENTER))",Edge Chromium 124,,,2024-05-16 05:20:11,2024-05-16 05:20:12,0.531s,PASSED
+"click(findTestObject(""Car Rental Tab/inputDateStart""))",Edge Chromium 124,,,2024-05-16 05:20:12,2024-05-16 05:20:12,0.698s,PASSED
+"sendKeys(findTestObject(null), Keys.chord(TAB, TAB, TAB, ENTER))",Edge Chromium 124,,,2024-05-16 05:20:12,2024-05-16 05:20:13,0.622s,PASSED
+"sendKeys(findTestObject(null), Keys.chord(PAGE_UP))",Edge Chromium 124,,,2024-05-16 05:20:13,2024-05-16 05:20:13,0.594s,PASSED
+"click(findTestObject(""Car Rental Tab/inputTimeStart""))",Edge Chromium 124,,,2024-05-16 05:20:13,2024-05-16 05:20:15,1.091s,PASSED
+"sendKeys(findTestObject(null), Keys.chord(TAB, TAB, TAB, TAB, TAB, TAB, TAB, TAB, TAB, TAB, ENTER, TAB, TAB, TAB, TAB, TAB, TAB, TAB, TAB, TAB, TAB, TAB, TAB, TAB, TAB, TAB, ENTER, TAB, TAB, ENTER))",Edge Chromium 124,,,2024-05-16 05:20:15,2024-05-16 05:20:15,0.805s,PASSED
+"sendKeys(findTestObject(null), Keys.chord(PAGE_UP))",Edge Chromium 124,,,2024-05-16 05:20:15,2024-05-16 05:20:16,0.554s,PASSED
+"click(findTestObject(""Car Rental Tab/inputDateEnd""))",Edge Chromium 124,,,2024-05-16 05:20:16,2024-05-16 05:20:17,0.889s,PASSED
+"sendKeys(findTestObject(null), Keys.chord(TAB, TAB, TAB, TAB, TAB, TAB, ENTER))",Edge Chromium 124,,,2024-05-16 05:20:17,2024-05-16 05:20:18,0.710s,PASSED
+"sendKeys(findTestObject(null), Keys.chord(PAGE_UP))",Edge Chromium 124,,,2024-05-16 05:20:18,2024-05-16 05:20:18,0.529s,PASSED
+"click(findTestObject(""Car Rental Tab/inputTimeEnd""))",Edge Chromium 124,,,2024-05-16 05:20:18,2024-05-16 05:20:19,1.008s,PASSED
+"sendKeys(findTestObject(null), Keys.chord(TAB, TAB, TAB, TAB, TAB, TAB, TAB, TAB, TAB, TAB, TAB, TAB, ENTER, TAB, TAB, TAB, TAB, TAB, TAB, TAB, TAB, TAB, TAB, TAB, TAB, TAB, ENTER, TAB, TAB, ENTER))",Edge Chromium 124,,,2024-05-16 05:20:19,2024-05-16 05:20:20,0.728s,PASSED
+"sendKeys(findTestObject(null), Keys.chord(PAGE_UP))",Edge Chromium 124,,,2024-05-16 05:20:20,2024-05-16 05:20:20,0.541s,PASSED
+,,,,,,,
+Test Cases/Test Step/04 Select car and provider from search result,Edge Chromium 124,,,2024-05-16 05:20:20,2024-05-16 05:20:39,18.567s,PASSED
+"click(findTestObject(""Car Rental Tab/buttonSearch""))",Edge Chromium 124,,,2024-05-16 05:20:21,2024-05-16 05:20:25,3.232s,PASSED
+"waitForElementPresent(findTestObject(""Search Result/buttonTopResultContinue""), 0)",Edge Chromium 124,,,2024-05-16 05:20:25,2024-05-16 05:20:29,4.514s,PASSED
+"click(findTestObject(""Search Result/buttonTopResultContinue""))",Edge Chromium 124,,,2024-05-16 05:20:29,2024-05-16 05:20:30,1.190s,PASSED
+delay(1),Edge Chromium 124,,,2024-05-16 05:20:30,2024-05-16 05:20:31,1.007s,PASSED
+"waitForElementPresent(findTestObject(""Search Result/buttonTopResultProvider""), 2)",Edge Chromium 124,,,2024-05-16 05:20:31,2024-05-16 05:20:32,0.461s,PASSED
+"click(findTestObject(""Search Result/buttonTopResultProvider""))",Edge Chromium 124,,,2024-05-16 05:20:32,2024-05-16 05:20:39,7.085s,PASSED
+,,,,,,,
+Test Cases/Test Step/05 Fill pickup dropoff detail,Edge Chromium 124,,,2024-05-16 05:20:39,2024-05-16 05:20:50,11.194s,PASSED
+"waitForElementPresent(findTestObject(""Product Detail/radioPickupOffice""), 0)",Edge Chromium 124,,,2024-05-16 05:20:40,2024-05-16 05:20:41,0.451s,PASSED
+"scrollToElement(findTestObject(""Product Detail/radioPickupOffice""), 0)",Edge Chromium 124,,,2024-05-16 05:20:41,2024-05-16 05:20:41,0.469s,PASSED
+"click(findTestObject(""Product Detail/radioPickupOffice""))",Edge Chromium 124,,,2024-05-16 05:20:41,2024-05-16 05:20:42,0.617s,PASSED
+"click(findTestObject(""Product Detail/dropdownPickupOffice""))",Edge Chromium 124,,,2024-05-16 05:20:42,2024-05-16 05:20:42,0.573s,PASSED
+"sendKeys(findTestObject(null), Keys.chord(TAB, ENTER))",Edge Chromium 124,,,2024-05-16 05:20:42,2024-05-16 05:20:43,1.011s,PASSED
+delay(2),Edge Chromium 124,,,2024-05-16 05:20:43,2024-05-16 05:20:45,2.019s,PASSED
+"scrollToElement(findTestObject(""Product Detail/radioDropoffOther""), 0)",Edge Chromium 124,,,2024-05-16 05:20:45,2024-05-16 05:20:46,0.569s,PASSED
+"click(findTestObject(""Product Detail/radioDropoffOther""))",Edge Chromium 124,,,2024-05-16 05:20:46,2024-05-16 05:20:46,0.514s,PASSED
+"click(findTestObject(""Product Detail/inputSearchLocation""))",Edge Chromium 124,,,2024-05-16 05:20:46,2024-05-16 05:20:47,0.647s,PASSED
+"sendKeys(findTestObject(null), Keys.chord(TAB, ENTER))",Edge Chromium 124,,,2024-05-16 05:20:47,2024-05-16 05:20:48,0.632s,PASSED
+"scrollToElement(findTestObject(""Product Detail/buttonContinue""), 0)",Edge Chromium 124,,,2024-05-16 05:20:48,2024-05-16 05:20:49,1.535s,PASSED
+"click(findTestObject(""Product Detail/buttonContinue""))",Edge Chromium 124,,,2024-05-16 05:20:49,2024-05-16 05:20:50,0.914s,PASSED
+,,,,,,,
+Test Cases/Test Step/06 Fill booking contact,Edge Chromium 124,,,2024-05-16 05:20:50,2024-05-16 05:21:02,11.554s,PASSED
+"waitForElementPresent(findTestObject(""Booking Contact/inputCPFullName""), 0)",Edge Chromium 124,,,2024-05-16 05:20:52,2024-05-16 05:20:54,2.182s,PASSED
+"setText(findTestObject(""Booking Contact/inputCPFullName""), ""Full Name Automation"")",Edge Chromium 124,,,2024-05-16 05:20:54,2024-05-16 05:20:55,1.379s,PASSED
+"setText(findTestObject(""Booking Contact/inputCPPhone""), ""8123456789"")",Edge Chromium 124,,,2024-05-16 05:20:55,2024-05-16 05:20:56,1.105s,PASSED
+"setText(findTestObject(""Booking Contact/inputCPEmail""), ""email@gmail.com"")",Edge Chromium 124,,,2024-05-16 05:20:56,2024-05-16 05:20:57,1.085s,PASSED
+"scrollToElement(findTestObject(""Booking Contact/dropdownDriverTitle""), 0)",Edge Chromium 124,,,2024-05-16 05:20:57,2024-05-16 05:20:58,0.435s,PASSED
+"selectOptionByValue(findTestObject(""Booking Contact/dropdownDriverTitle""), ""MR"", false)",Edge Chromium 124,,,2024-05-16 05:20:58,2024-05-16 05:20:59,0.964s,PASSED
+"setText(findTestObject(""Booking Contact/inputDriverFullName""), ""Full Name Automation"")",Edge Chromium 124,,,2024-05-16 05:20:59,2024-05-16 05:21:00,1.187s,PASSED
+"setText(findTestObject(""Booking Contact/inputDriverPhone""), ""8123456789"")",Edge Chromium 124,,,2024-05-16 05:21:00,2024-05-16 05:21:01,0.962s,PASSED
+"click(findTestObject(""Booking Contact/buttonContinue""))",Edge Chromium 124,,,2024-05-16 05:21:01,2024-05-16 05:21:02,0.716s,PASSED
+,,,,,,,
+Test Cases/Test Step/07 Fill booking review,Edge Chromium 124,,,2024-05-16 05:21:02,2024-05-16 05:21:11,9.058s,PASSED
+"waitForElementPresent(findTestObject(""Booking Review/buttonRequirement""), 0)",Edge Chromium 124,,,2024-05-16 05:21:03,2024-05-16 05:21:03,0.394s,PASSED
+"scrollToElement(findTestObject(""Booking Review/buttonRequirement""), 0)",Edge Chromium 124,,,2024-05-16 05:21:03,2024-05-16 05:21:04,0.422s,PASSED
+"click(findTestObject(""Booking Review/buttonRequirement""))",Edge Chromium 124,,,2024-05-16 05:21:04,2024-05-16 05:21:04,0.515s,PASSED
+"waitForElementPresent(findTestObject(""Booking Review/checkboxCheckAll""), 0)",Edge Chromium 124,,,2024-05-16 05:21:04,2024-05-16 05:21:05,0.542s,PASSED
+"click(findTestObject(""Booking Review/checkboxCheckAll""))",Edge Chromium 124,,,2024-05-16 05:21:05,2024-05-16 05:21:05,0.508s,PASSED
+"scrollToElement(findTestObject(""Booking Review/buttonSaveRequirement""), 0)",Edge Chromium 124,,,2024-05-16 05:21:05,2024-05-16 05:21:06,0.555s,PASSED
+"click(findTestObject(""Booking Review/buttonSaveRequirement""))",Edge Chromium 124,,,2024-05-16 05:21:06,2024-05-16 05:21:06,0.508s,PASSED
+"scrollToElement(findTestObject(""Booking Review/buttonContinueP""), 0)",Edge Chromium 124,,,2024-05-16 05:21:06,2024-05-16 05:21:07,0.587s,PASSED
+"click(findTestObject(""Booking Review/buttonContinueP""))",Edge Chromium 124,,,2024-05-16 05:21:07,2024-05-16 05:21:07,0.495s,PASSED
+"waitForElementVisible(findTestObject(""Booking Review/buttonConfirmContinue""), 0)",Edge Chromium 124,,,2024-05-16 05:21:07,2024-05-16 05:21:08,0.827s,PASSED
+"click(findTestObject(""Booking Review/buttonConfirmContinue""))",Edge Chromium 124,,,2024-05-16 05:21:08,2024-05-16 05:21:09,0.555s,PASSED
+delay(2),Edge Chromium 124,,,2024-05-16 05:21:09,2024-05-16 05:21:11,2.006s,PASSED
+,,,,,,,
+Test Cases/Test Step/08 Fill booking payment,Edge Chromium 124,,,2024-05-16 05:21:11,2024-05-16 05:21:30,19.485s,PASSED
+"waitForElementPresent(findTestObject(""Booking Payment/buttonBCAvirtual""), 0)",Edge Chromium 124,,,2024-05-16 05:21:12,2024-05-16 05:21:23,10.945s,PASSED
+"click(findTestObject(""Booking Payment/buttonBCAvirtual""))",Edge Chromium 124,,,2024-05-16 05:21:23,2024-05-16 05:21:24,1.126s,PASSED
+"scrollToElement(findTestObject(""Booking Payment/buttonConfirmPayment""), 0)",Edge Chromium 124,,,2024-05-16 05:21:24,2024-05-16 05:21:25,0.448s,PASSED
+"click(findTestObject(""Booking Payment/buttonConfirmPayment""))",Edge Chromium 124,,,2024-05-16 05:21:25,2024-05-16 05:21:25,0.634s,PASSED
+delay(5),Edge Chromium 124,,,2024-05-16 05:21:25,2024-05-16 05:21:30,5.013s,PASSED
+,,,,,,,
+Test Cases/Test Step/09 Verify payment proceeeded,Edge Chromium 124,,,2024-05-16 05:21:30,2024-05-16 05:21:37,6.410s,PASSED
+"waitForElementPresent(findTestObject(""Booking Payment/textPleaseTransfer""), 0)",Edge Chromium 124,,,2024-05-16 05:21:31,2024-05-16 05:21:36,4.583s,PASSED
+"waitForElementVisible(findTestObject(""Booking Payment/textPleaseTransfer""), 0)",Edge Chromium 124,,,2024-05-16 05:21:36,2024-05-16 05:21:37,0.985s,PASSED
