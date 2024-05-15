@@ -17,9 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.verifyElementPresent(findTestObject('Car Rental Tab/inputLocation'), 2)
 
-WebUI.maximizeWindow()
+WebUI.setText(findTestObject('Car Rental Tab/inputLocation'), 'Jakarta')
 
-WebUI.navigateToUrl('https://www.traveloka.com/en-id')
+WebUI.setText(findTestObject('Car Rental Tab/inputDateStart'), '17 May 2024')
+
+WebUI.setText(findTestObject('Car Rental Tab/inputTimeStart'), '09:00')
+
+WebUI.setText(findTestObject('Car Rental Tab/inputDateEnd'), '20 May 2024')
+
+WebUI.setText(findTestObject('Car Rental Tab/inputTimeEnd'), '11:00')
+
+WebUI.click(findTestObject('Car Rental Tab/buttonSearch'))
 

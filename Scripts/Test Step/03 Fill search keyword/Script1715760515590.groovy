@@ -17,3 +17,43 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.verifyElementPresent(findTestObject('Car Rental Tab/inputLocation'), 2)
+
+WebUI.click(findTestObject('Car Rental Tab/inputLocation'))
+
+WebUI.setText(findTestObject('Car Rental Tab/inputLocation'), 'Jakarta')
+
+WebUI.delay(1)
+
+WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.TAB, Keys.ENTER))
+
+WebUI.click(findTestObject('Car Rental Tab/inputDateStart'))
+
+WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.TAB, Keys.TAB, Keys.TAB, Keys.ENTER))
+
+WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.PAGE_UP))
+
+WebUI.click(findTestObject('Car Rental Tab/inputTimeStart'))
+
+WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.TAB, Keys.TAB, Keys.TAB, Keys.TAB, Keys.TAB, Keys.TAB, Keys.TAB, Keys.TAB, 
+        Keys.TAB, Keys.TAB, Keys.ENTER, Keys.TAB, Keys.TAB, Keys.TAB, Keys.TAB, Keys.TAB, Keys.TAB, Keys.TAB, Keys.TAB, 
+        Keys.TAB, Keys.TAB, Keys.TAB, Keys.TAB, Keys.TAB, Keys.TAB, Keys.TAB, Keys.ENTER, Keys.TAB, Keys.TAB, Keys.ENTER))
+
+WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.PAGE_UP))
+
+WebUI.click(findTestObject('Car Rental Tab/inputDateEnd'))
+
+WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.TAB, Keys.TAB, Keys.TAB, Keys.TAB, Keys.TAB, Keys.TAB, Keys.ENTER))
+
+WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.PAGE_UP))
+
+WebUI.click(findTestObject('Car Rental Tab/inputTimeEnd'))
+
+WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.TAB, Keys.TAB, Keys.TAB, Keys.TAB, Keys.TAB, Keys.TAB, Keys.TAB, Keys.TAB, 
+        Keys.TAB, Keys.TAB, Keys.TAB, Keys.TAB, Keys.ENTER, Keys.TAB, Keys.TAB, Keys.TAB, Keys.TAB, Keys.TAB, Keys.TAB, 
+        Keys.TAB, Keys.TAB, Keys.TAB, Keys.TAB, Keys.TAB, Keys.TAB, Keys.TAB, Keys.ENTER, Keys.TAB, Keys.TAB, Keys.ENTER))
+
+WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.PAGE_UP))
+
+WebUI.click(findTestObject('Car Rental Tab/buttonSearch'))
+
