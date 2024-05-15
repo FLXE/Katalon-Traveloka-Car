@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>04 Execute search</name>
+   <name>05 Fill pickup dropoff detail</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>558e2149-7a00-4264-af4f-adc3ecc7fec8</testCaseGuid>
+   <testCaseGuid>3d792c23-1a81-419f-abd7-a69b66f41fdb</testCaseGuid>
 </TestCaseEntity>

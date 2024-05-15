@@ -17,13 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Test Step/01 Navigate to URL'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Car Rental Tab/buttonSearch'))
 
-WebUI.callTestCase(findTestCase('Test Step/02 Select car product'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForElementPresent(findTestObject('Search Result/buttonTopResultContinue'), 0)
 
-WebUI.callTestCase(findTestCase('Test Step/03 Fill search keyword'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Search Result/buttonTopResultContinue'))
 
-WebUI.callTestCase(findTestCase('Test Step/04 Select car and provider from search result'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForElementPresent(findTestObject('Search Result/buttonTopResultProvider'), 0)
 
-WebUI.callTestCase(findTestCase('Test Step/05 Fill pickup dropoff detail'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Search Result/buttonTopResultProvider'))
 

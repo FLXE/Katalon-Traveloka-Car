@@ -55,5 +55,3 @@ WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.TAB, Keys.TAB, Keys.TAB, Ke
 
 WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.PAGE_UP))
 
-WebUI.click(findTestObject('Car Rental Tab/buttonSearch'))
-

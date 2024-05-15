@@ -17,3 +17,27 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.waitForElementPresent(findTestObject('Product Detail/radioPickupOffice'), 0)
+
+WebUI.scrollToElement(findTestObject('Product Detail/radioPickupOffice'), 0)
+
+WebUI.click(findTestObject('Product Detail/radioPickupOffice'))
+
+WebUI.click(findTestObject('Product Detail/dropdownPickupOffice'))
+
+WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.TAB, Keys.ENTER))
+
+WebUI.delay(2)
+
+WebUI.scrollToElement(findTestObject('Product Detail/radioDropoffOther'), 0)
+
+WebUI.click(findTestObject('Product Detail/radioDropoffOther'))
+
+WebUI.click(findTestObject('Product Detail/inputSearchLocation'))
+
+WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.TAB, Keys.ENTER))
+
+WebUI.scrollToElement(findTestObject('Product Detail/buttonContinue'), 0)
+
+WebUI.click(findTestObject('Product Detail/buttonContinue'))
+

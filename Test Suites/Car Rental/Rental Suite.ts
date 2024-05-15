@@ -36,7 +36,7 @@
       <guid>31edec43-ea0a-435e-899c-c00bc7295ac6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Test Step/04 Execute search</testCaseId>
+      <testCaseId>Test Cases/Test Step/04 Select car and provider from search result</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
